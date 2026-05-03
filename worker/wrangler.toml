@@ -49,9 +49,9 @@ database_name = "temp-mail" # D1 数据库名称
 database_id = "bd4d41f5-c531-4964-9216-075d4cc5d82b" # D1 数据库 ID
 
 # kv config 用于用户注册发送邮件验证码，如果不启用用户注册或不启用注册验证，可以不配置
-# [[kv_namespaces]]
-# binding = "KV"
-# id = "xxxx"
+[[kv_namespaces]]
+binding = "KV"
+id = "e4287600f88148db8ee2f0a1f036edac"
 
 # 新建地址限流配置 /api/new_address
 # [[unsafe.bindings]]
